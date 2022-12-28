@@ -7,7 +7,8 @@ public class EvenDigits {
 
         System.out.println(digits2(-345678));
     }
-    static int findNumbers(int[] nums) {
+    static int findNumbers(int[] nums)  
+    {
         int count = 0;
         for(int num : nums) {
             if (even(num)) {
